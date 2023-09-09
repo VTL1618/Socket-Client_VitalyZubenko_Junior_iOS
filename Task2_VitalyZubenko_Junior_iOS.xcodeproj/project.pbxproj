@@ -14,6 +14,8 @@
 		C95B45212AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C95B451F2AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld */; };
 		C95B45232AAB378500E1587C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95B45222AAB378500E1587C /* Assets.xcassets */; };
 		C95B45262AAB378500E1587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B45242AAB378500E1587C /* LaunchScreen.storyboard */; };
+		C95B45322AAC9D6800E1587C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45312AAC9D6800E1587C /* test.swift */; };
+		C95B45342AAC9E2800E1587C /* SocketRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45332AAC9E2700E1587C /* SocketRoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C95B45222AAB378500E1587C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C95B45252AAB378500E1587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C95B45272AAB378500E1587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95B45312AAC9D6800E1587C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = test.swift; path = ../../test.swift; sourceTree = "<group>"; };
+		C95B45332AAC9E2700E1587C /* SocketRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				C95B45162AAB377F00E1587C /* AppDelegate.swift */,
 				C95B45182AAB377F00E1587C /* SceneDelegate.swift */,
 				C95B451A2AAB377F00E1587C /* SocketRoomViewController.swift */,
+				C95B45332AAC9E2700E1587C /* SocketRoom.swift */,
+				C95B45312AAC9D6800E1587C /* test.swift */,
 				C95B451C2AAB377F00E1587C /* Main.storyboard */,
 				C95B45222AAB378500E1587C /* Assets.xcassets */,
 				C95B45242AAB378500E1587C /* LaunchScreen.storyboard */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95B451B2AAB377F00E1587C /* SocketRoomViewController.swift in Sources */,
+				C95B45342AAC9E2800E1587C /* SocketRoom.swift in Sources */,
 				C95B45172AAB377F00E1587C /* AppDelegate.swift in Sources */,
 				C95B45212AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld in Sources */,
+				C95B45322AAC9D6800E1587C /* test.swift in Sources */,
 				C95B45192AAB377F00E1587C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

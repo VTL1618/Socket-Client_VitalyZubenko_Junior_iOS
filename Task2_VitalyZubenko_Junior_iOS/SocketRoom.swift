@@ -20,7 +20,7 @@ class SocketRoom: NSObject {
         var readStream: Unmanaged<CFReadStream>?
         var writeStream: Unmanaged<CFWriteStream>?
         
-        CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, "localhost" as! CFString, 3000, &readStream, &writeStream)
+        CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, "localhost" as CFString, 3000, &readStream, &writeStream)
         
         inStream = readStream!.takeRetainedValue()
         outStream = writeStream!.takeRetainedValue()

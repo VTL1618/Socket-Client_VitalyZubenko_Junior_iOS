@@ -8,25 +8,20 @@
 import UIKit
 
 class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
-
-//    let socketRoom = SocketRoom()
     
     private var webSocket: URLSessionWebSocketTask?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        connect(serverURL: "ws://localhost:8080")
     }
     
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        socketRoom.setNetworkCommunication()
-//    }
-    
-    func connect(serverURL: URL) {
+    func connect(serverURL: String) {
         let session = URLSession(configuration: .default,
                                  delegate: self,
                                  delegateQueue: OperationQueue())
-        let url = URL(string: "wss://connect.websocket.in/v3/1?api_key=&notify_self")
+        let url = URL(string: serverURL)
         webSocket = session.webSocketTask(with: url!)
         webSocket?.resume()
     }
@@ -44,14 +39,6 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
     }
     
     func send(message: String) {
-//        DispatchQueue.global().asyncAfter(deadline: .now()+1) {
-//            self.send()
-//            self.webSocket?.send(.string("Send new message: \(Int.random(in: 7...777))"), completionHandler: { error in
-//                if let error = error {
-//                    print("send error: \(error)")
-//                }
-//            })
-//        }
         webSocket?.send(.string(message)) { error in
             if let error = error {
                 print("send error: \(error)")
@@ -86,7 +73,6 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
         print("Did connect to socket")
         ping()
         receive()
-//        send(message: )
     }
     
     func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didCloseWith closeCode: URLSessionWebSocketTask.CloseCode, reason: Data?) {
