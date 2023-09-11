@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0158B35B21A8AE9C3DD2357D /* Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED528E29AC06A5D6FFD378 /* Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework */; };
+		56F2C1941CA419CF76C276C1 /* Pods_Task2_VitalyZubenko_Junior_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E109D57B2CDF2624BFB36D /* Pods_Task2_VitalyZubenko_Junior_iOS.framework */; };
+		5EADE29F5BC9D7C8A933738B /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A72D11A90B38E4D7B7012E7 /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework */; };
+		C940DCB02AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940DCAF2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift */; };
+		C940DCB22AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940DCB12AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift */; };
+		C94DB4EB2AAEB2F800A3688E /* WebSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B456B2AACE48400E1587C /* WebSocketTests.swift */; };
 		C95B45172AAB377F00E1587C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45162AAB377F00E1587C /* AppDelegate.swift */; };
 		C95B45192AAB377F00E1587C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45182AAB377F00E1587C /* SceneDelegate.swift */; };
 		C95B451B2AAB377F00E1587C /* SocketRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B451A2AAB377F00E1587C /* SocketRoomViewController.swift */; };
@@ -14,11 +20,39 @@
 		C95B45212AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C95B451F2AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld */; };
 		C95B45232AAB378500E1587C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95B45222AAB378500E1587C /* Assets.xcassets */; };
 		C95B45262AAB378500E1587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B45242AAB378500E1587C /* LaunchScreen.storyboard */; };
-		C95B45322AAC9D6800E1587C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45312AAC9D6800E1587C /* test.swift */; };
-		C95B45342AAC9E2800E1587C /* SocketRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45332AAC9E2700E1587C /* SocketRoom.swift */; };
+		C95B45652AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */; };
+		C99C098F2AAE6B63005FF4EB /* WebSocketServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C940DCB32AAE9CE5002CCDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95B450B2AAB377F00E1587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95B45122AAB377F00E1587C;
+			remoteInfo = Task2_VitalyZubenko_Junior_iOS;
+		};
+		C95B45662AACE01500E1587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95B450B2AAB377F00E1587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95B45122AAB377F00E1587C;
+			remoteInfo = Task2_VitalyZubenko_Junior_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		06ED528E29AC06A5D6FFD378 /* Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B09695605F1E9A47F35F5E1 /* Pods-Task2_VitalyZubenko_Junior_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS/Pods-Task2_VitalyZubenko_Junior_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		24647A642D7619B836C19BEB /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3EC52BF92B62F2441CE098 /* Pods-Task2_VitalyZubenko_Junior_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOS.release.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS/Pods-Task2_VitalyZubenko_Junior_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		374E9EC813AAE079F27F82E2 /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A72D11A90B38E4D7B7012E7 /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task2_VitalyZubenko_Junior_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5596032E3455607E6B21917 /* Pods-Task2_VitalyZubenko_Junior_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOSTests/Pods-Task2_VitalyZubenko_Junior_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E109D57B2CDF2624BFB36D /* Pods_Task2_VitalyZubenko_Junior_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task2_VitalyZubenko_Junior_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940DCAD2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task2_VitalyZubenko_Junior_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940DCAF2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2_VitalyZubenko_Junior_iOSUITests.swift; sourceTree = "<group>"; };
+		C940DCB12AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C95B45132AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task2_VitalyZubenko_Junior_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95B45162AAB377F00E1587C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95B45182AAB377F00E1587C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,26 +62,82 @@
 		C95B45222AAB378500E1587C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C95B45252AAB378500E1587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C95B45272AAB378500E1587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C95B45312AAC9D6800E1587C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = test.swift; path = ../../test.swift; sourceTree = "<group>"; };
-		C95B45332AAC9E2700E1587C /* SocketRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRoom.swift; sourceTree = "<group>"; };
+		C95B45622AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task2_VitalyZubenko_Junior_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2_VitalyZubenko_Junior_iOSTests.swift; sourceTree = "<group>"; };
+		C95B456B2AACE48400E1587C /* WebSocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketTests.swift; sourceTree = "<group>"; };
+		C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocketServerMock.swift; path = "../../../../Downloads/Interviews-main/Junior iOS Application Developer/Task #2/socket-test/socket-testUITests/WebSocketServerMock/WebSocketServerMock.swift"; sourceTree = "<group>"; };
+		F500E9D94C3FA22F512A29EB /* Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOSTests/Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C940DCAA2AAE9CE4002CCDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0158B35B21A8AE9C3DD2357D /* Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C95B45102AAB377F00E1587C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F2C1941CA419CF76C276C1 /* Pods_Task2_VitalyZubenko_Junior_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95B455F2AACE01400E1587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EADE29F5BC9D7C8A933738B /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7ADFCF4BF61FA081F209CA61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B09695605F1E9A47F35F5E1 /* Pods-Task2_VitalyZubenko_Junior_iOS.debug.xcconfig */,
+				2D3EC52BF92B62F2441CE098 /* Pods-Task2_VitalyZubenko_Junior_iOS.release.xcconfig */,
+				24647A642D7619B836C19BEB /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.debug.xcconfig */,
+				374E9EC813AAE079F27F82E2 /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.release.xcconfig */,
+				F500E9D94C3FA22F512A29EB /* Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig */,
+				A5596032E3455607E6B21917 /* Pods-Task2_VitalyZubenko_Junior_iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6E095A16F50A77A92CE35B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E109D57B2CDF2624BFB36D /* Pods_Task2_VitalyZubenko_Junior_iOS.framework */,
+				06ED528E29AC06A5D6FFD378 /* Pods_Task2_VitalyZubenko_Junior_iOS_Task2_VitalyZubenko_Junior_iOSUITests.framework */,
+				5A72D11A90B38E4D7B7012E7 /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C940DCAE2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C940DCAF2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift */,
+				C940DCB12AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift */,
+			);
+			path = Task2_VitalyZubenko_Junior_iOSUITests;
+			sourceTree = "<group>";
+		};
 		C95B450A2AAB377F00E1587C = {
 			isa = PBXGroup;
 			children = (
 				C95B45152AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS */,
+				C95B45632AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests */,
+				C940DCAE2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests */,
 				C95B45142AAB377F00E1587C /* Products */,
+				7ADFCF4BF61FA081F209CA61 /* Pods */,
+				B6E095A16F50A77A92CE35B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				C95B45132AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.app */,
+				C95B45622AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests.xctest */,
+				C940DCAD2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,8 +157,6 @@
 				C95B45162AAB377F00E1587C /* AppDelegate.swift */,
 				C95B45182AAB377F00E1587C /* SceneDelegate.swift */,
 				C95B451A2AAB377F00E1587C /* SocketRoomViewController.swift */,
-				C95B45332AAC9E2700E1587C /* SocketRoom.swift */,
-				C95B45312AAC9D6800E1587C /* test.swift */,
 				C95B451C2AAB377F00E1587C /* Main.storyboard */,
 				C95B45222AAB378500E1587C /* Assets.xcassets */,
 				C95B45242AAB378500E1587C /* LaunchScreen.storyboard */,
@@ -76,16 +166,48 @@
 			path = Task2_VitalyZubenko_Junior_iOS;
 			sourceTree = "<group>";
 		};
+		C95B45632AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */,
+				C95B456B2AACE48400E1587C /* WebSocketTests.swift */,
+				C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */,
+			);
+			path = Task2_VitalyZubenko_Junior_iOSTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C940DCAC2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940DCB72AAE9CE5002CCDB8 /* Build configuration list for PBXNativeTarget "Task2_VitalyZubenko_Junior_iOSUITests" */;
+			buildPhases = (
+				B4EB9379E3952621D09E11F4 /* [CP] Check Pods Manifest.lock */,
+				C940DCA92AAE9CE4002CCDB8 /* Sources */,
+				C940DCAA2AAE9CE4002CCDB8 /* Frameworks */,
+				C940DCAB2AAE9CE4002CCDB8 /* Resources */,
+				F49044E2813EB8D73BD03429 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C940DCB42AAE9CE5002CCDB8 /* PBXTargetDependency */,
+			);
+			name = Task2_VitalyZubenko_Junior_iOSUITests;
+			productName = Task2_VitalyZubenko_Junior_iOSUITests;
+			productReference = C940DCAD2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C95B45122AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95B452A2AAB378500E1587C /* Build configuration list for PBXNativeTarget "Task2_VitalyZubenko_Junior_iOS" */;
 			buildPhases = (
+				299B5D3C7D0C050935D6D191 /* [CP] Check Pods Manifest.lock */,
 				C95B450F2AAB377F00E1587C /* Sources */,
 				C95B45102AAB377F00E1587C /* Frameworks */,
 				C95B45112AAB377F00E1587C /* Resources */,
+				3BCAA50BD685D5213ED619B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,6 +217,25 @@
 			productName = Task2_VitalyZubenko_Junior_iOS;
 			productReference = C95B45132AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C95B45612AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95B45682AACE01500E1587C /* Build configuration list for PBXNativeTarget "Task2_VitalyZubenko_Junior_iOSTests" */;
+			buildPhases = (
+				564A5307564472096B1F06FE /* [CP] Check Pods Manifest.lock */,
+				C95B455E2AACE01400E1587C /* Sources */,
+				C95B455F2AACE01400E1587C /* Frameworks */,
+				C95B45602AACE01400E1587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95B45672AACE01500E1587C /* PBXTargetDependency */,
+			);
+			name = Task2_VitalyZubenko_Junior_iOSTests;
+			productName = Task2_VitalyZubenko_Junior_iOSTests;
+			productReference = C95B45622AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,8 +247,16 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					C940DCAC2AAE9CE4002CCDB8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C95B45122AAB377F00E1587C;
+					};
 					C95B45122AAB377F00E1587C = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					C95B45612AACE01400E1587C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C95B45122AAB377F00E1587C;
 					};
 				};
 			};
@@ -125,11 +274,20 @@
 			projectRoot = "";
 			targets = (
 				C95B45122AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS */,
+				C95B45612AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests */,
+				C940DCAC2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C940DCAB2AAE9CE4002CCDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C95B45112AAB377F00E1587C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,23 +298,163 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C95B45602AACE01400E1587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		299B5D3C7D0C050935D6D191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task2_VitalyZubenko_Junior_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCAA50BD685D5213ED619B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS/Pods-Task2_VitalyZubenko_Junior_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS/Pods-Task2_VitalyZubenko_Junior_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS/Pods-Task2_VitalyZubenko_Junior_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564A5307564472096B1F06FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task2_VitalyZubenko_Junior_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EB9379E3952621D09E11F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49044E2813EB8D73BD03429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests/Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C940DCA92AAE9CE4002CCDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940DCB02AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift in Sources */,
+				C940DCB22AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C95B450F2AAB377F00E1587C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C95B451B2AAB377F00E1587C /* SocketRoomViewController.swift in Sources */,
-				C95B45342AAC9E2800E1587C /* SocketRoom.swift in Sources */,
 				C95B45172AAB377F00E1587C /* AppDelegate.swift in Sources */,
 				C95B45212AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS.xcdatamodeld in Sources */,
-				C95B45322AAC9D6800E1587C /* test.swift in Sources */,
 				C95B45192AAB377F00E1587C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C95B455E2AACE01400E1587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C098F2AAE6B63005FF4EB /* WebSocketServerMock.swift in Sources */,
+				C94DB4EB2AAEB2F800A3688E /* WebSocketTests.swift in Sources */,
+				C95B45652AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C940DCB42AAE9CE5002CCDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95B45122AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS */;
+			targetProxy = C940DCB32AAE9CE5002CCDB8 /* PBXContainerItemProxy */;
+		};
+		C95B45672AACE01500E1587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95B45122AAB377F00E1587C /* Task2_VitalyZubenko_Junior_iOS */;
+			targetProxy = C95B45662AACE01500E1587C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C95B451C2AAB377F00E1587C /* Main.storyboard */ = {
@@ -178,6 +476,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C940DCB52AAE9CE5002CCDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24647A642D7619B836C19BEB /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7WNSVLH74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VTL.Task2-VitalyZubenko-Junior-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Task2_VitalyZubenko_Junior_iOS;
+			};
+			name = Debug;
+		};
+		C940DCB62AAE9CE5002CCDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374E9EC813AAE079F27F82E2 /* Pods-Task2_VitalyZubenko_Junior_iOS-Task2_VitalyZubenko_Junior_iOSUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7WNSVLH74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VTL.Task2-VitalyZubenko-Junior-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Task2_VitalyZubenko_Junior_iOS;
+			};
+			name = Release;
+		};
 		C95B45282AAB378500E1587C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -236,6 +572,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -290,12 +627,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C95B452B2AAB378500E1587C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B09695605F1E9A47F35F5E1 /* Pods-Task2_VitalyZubenko_Junior_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +663,7 @@
 		};
 		C95B452C2AAB378500E1587C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3EC52BF92B62F2441CE098 /* Pods-Task2_VitalyZubenko_Junior_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -350,9 +690,56 @@
 			};
 			name = Release;
 		};
+		C95B45692AACE01500E1587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F500E9D94C3FA22F512A29EB /* Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7WNSVLH74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VTL.Task2-VitalyZubenko-Junior-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task2_VitalyZubenko_Junior_iOS.app/Task2_VitalyZubenko_Junior_iOS";
+			};
+			name = Debug;
+		};
+		C95B456A2AACE01500E1587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5596032E3455607E6B21917 /* Pods-Task2_VitalyZubenko_Junior_iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7WNSVLH74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VTL.Task2-VitalyZubenko-Junior-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task2_VitalyZubenko_Junior_iOS.app/Task2_VitalyZubenko_Junior_iOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C940DCB72AAE9CE5002CCDB8 /* Build configuration list for PBXNativeTarget "Task2_VitalyZubenko_Junior_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940DCB52AAE9CE5002CCDB8 /* Debug */,
+				C940DCB62AAE9CE5002CCDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C95B450E2AAB377F00E1587C /* Build configuration list for PBXProject "Task2_VitalyZubenko_Junior_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -367,6 +754,15 @@
 			buildConfigurations = (
 				C95B452B2AAB378500E1587C /* Debug */,
 				C95B452C2AAB378500E1587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95B45682AACE01500E1587C /* Build configuration list for PBXNativeTarget "Task2_VitalyZubenko_Junior_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95B45692AACE01500E1587C /* Debug */,
+				C95B456A2AACE01500E1587C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
