@@ -6,15 +6,32 @@
 //
 
 import UIKit
+import Swifter
 
 class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
     
+    var server: WebSocketServerMock!
     private var webSocket: URLSessionWebSocketTask?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
+        server = WebSocketServerMock()
+        startMockServer()
         connect(serverURL: "ws://localhost:8080")
+    }
+    
+    func startMockServer() {
+        do {
+            try server.startServer(text: { message in
+                print("RECEIVED MESSAGE FROM CLIENT: \(message)")
+            }, connected: {
+                print("CLIENT CONNECTED")
+                self.server.sendMessage("ping")
+            })
+        } catch {
+            print("SERVER START ERROR: \(error)")
+        }
     }
     
     func connect(serverURL: String) {
@@ -23,7 +40,12 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
                                  delegateQueue: OperationQueue())
         let url = URL(string: serverURL)
         webSocket = session.webSocketTask(with: url!)
-        webSocket?.resume()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()+1.0) {
+            self.webSocket?.resume()
+        }
+        
+//        webSocket?.resume()
     }
     
     func ping() {
@@ -52,9 +74,9 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
             case .success(let message):
                 switch message {
                 case .data(let data):
-                    print("Received Data: \(data)")
+                    print("Received Data from Server: \(data)")
                 case .string(let message):
-                    print("Received String: \(message)")
+                    print("Received String from Server: \(message)")
                     if message == "ping" {
                         self?.send(message: "pong")
                     }
@@ -64,7 +86,7 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
             case .failure(let error):
                 print("receive error: \(error)")
             }
-            
+
             self?.receive()
         })
     }
