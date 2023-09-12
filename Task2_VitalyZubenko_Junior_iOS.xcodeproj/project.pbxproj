@@ -12,7 +12,6 @@
 		5EADE29F5BC9D7C8A933738B /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A72D11A90B38E4D7B7012E7 /* Pods_Task2_VitalyZubenko_Junior_iOSTests.framework */; };
 		C940DCB02AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940DCAF2AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift */; };
 		C940DCB22AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940DCB12AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift */; };
-		C94DB4EB2AAEB2F800A3688E /* WebSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B456B2AACE48400E1587C /* WebSocketTests.swift */; };
 		C95B45172AAB377F00E1587C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45162AAB377F00E1587C /* AppDelegate.swift */; };
 		C95B45192AAB377F00E1587C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45182AAB377F00E1587C /* SceneDelegate.swift */; };
 		C95B451B2AAB377F00E1587C /* SocketRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B451A2AAB377F00E1587C /* SocketRoomViewController.swift */; };
@@ -22,7 +21,8 @@
 		C95B45262AAB378500E1587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B45242AAB378500E1587C /* LaunchScreen.storyboard */; };
 		C95B45652AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */; };
 		C9965A942AB06A7600461C9E /* WebSocketServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9965A932AB06A7500461C9E /* WebSocketServerMock.swift */; };
-		C99C098F2AAE6B63005FF4EB /* WebSocketServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */; };
+		C9965A952AB0D7C400461C9E /* SocketRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B451A2AAB377F00E1587C /* SocketRoomViewController.swift */; };
+		C9965A962AB0D7CA00461C9E /* WebSocketServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9965A932AB06A7500461C9E /* WebSocketServerMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +65,7 @@
 		C95B45272AAB378500E1587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C95B45622AACE01400E1587C /* Task2_VitalyZubenko_Junior_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task2_VitalyZubenko_Junior_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2_VitalyZubenko_Junior_iOSTests.swift; sourceTree = "<group>"; };
-		C95B456B2AACE48400E1587C /* WebSocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketTests.swift; sourceTree = "<group>"; };
 		C9965A932AB06A7500461C9E /* WebSocketServerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketServerMock.swift; sourceTree = "<group>"; };
-		C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocketServerMock.swift; path = "../../../../Downloads/Interviews-main/Junior iOS Application Developer/Task #2/socket-test/socket-testUITests/WebSocketServerMock/WebSocketServerMock.swift"; sourceTree = "<group>"; };
 		F500E9D94C3FA22F512A29EB /* Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Task2_VitalyZubenko_Junior_iOSTests/Pods-Task2_VitalyZubenko_Junior_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,8 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				C95B45642AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift */,
-				C95B456B2AACE48400E1587C /* WebSocketTests.swift */,
-				C99C098E2AAE6B63005FF4EB /* WebSocketServerMock.swift */,
 			);
 			path = Task2_VitalyZubenko_Junior_iOSTests;
 			sourceTree = "<group>";
@@ -418,6 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9965A962AB0D7CA00461C9E /* WebSocketServerMock.swift in Sources */,
+				C9965A952AB0D7C400461C9E /* SocketRoomViewController.swift in Sources */,
 				C940DCB02AAE9CE4002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITests.swift in Sources */,
 				C940DCB22AAE9CE5002CCDB8 /* Task2_VitalyZubenko_Junior_iOSUITestsLaunchTests.swift in Sources */,
 			);
@@ -439,8 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99C098F2AAE6B63005FF4EB /* WebSocketServerMock.swift in Sources */,
-				C94DB4EB2AAEB2F800A3688E /* WebSocketTests.swift in Sources */,
 				C95B45652AACE01500E1587C /* Task2_VitalyZubenko_Junior_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

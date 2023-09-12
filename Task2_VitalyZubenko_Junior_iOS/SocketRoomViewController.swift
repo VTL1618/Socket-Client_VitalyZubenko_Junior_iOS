@@ -6,33 +6,33 @@
 //
 
 import UIKit
-import Swifter
+//import Swifter
 
 class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
     
-    var server: WebSocketServerMock!
+//    var server: WebSocketServerMock!
     private var webSocket: URLSessionWebSocketTask?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        server = WebSocketServerMock()
-        startMockServer()
+//        server = WebSocketServerMock()
+//        startMockServer()
         connect(serverURL: "ws://localhost:8080")
     }
     
-    func startMockServer() {
-        do {
-            try server.startServer(text: { message in
-                print("RECEIVED MESSAGE FROM CLIENT: \(message)")
-            }, connected: {
-                print("CLIENT CONNECTED")
-                self.server.sendMessage("ping")
-            })
-        } catch {
-            print("SERVER START ERROR: \(error)")
-        }
-    }
+//    func startMockServer() {
+//        do {
+//            try server.startServer(text: { message in
+//                print("RECEIVED MESSAGE FROM CLIENT: \(message)")
+//            }, connected: {
+//                print("CLIENT CONNECTED")
+//                self.server.sendMessage("ping")
+//            })
+//        } catch {
+//            print("SERVER START ERROR: \(error)")
+//        }
+//    }
     
     func connect(serverURL: String) {
         let session = URLSession(configuration: .default,
@@ -41,7 +41,7 @@ class SocketRoomViewController: UIViewController, URLSessionWebSocketDelegate {
         let url = URL(string: serverURL)
         webSocket = session.webSocketTask(with: url!)
         
-        DispatchQueue.main.asyncAfter(deadline: .now()+1.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+5.0) {
             self.webSocket?.resume()
         }
         
